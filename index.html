@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+<!-- HECHO POR @eliasss.flp -->
+<!-- MUCHOS CÓDIGOS SON DE GOOGLE, PERO DE TODAS FORMAS TUVE QUE ADAPTARLOS A MI PÁGINA :)) -->
+
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/png" href="img/logo.png">
+<title>ELIAS'S&reg;</title>
+
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+
+<!-- CSS -->
+
+<style type="text/css">
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html{
+    min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgb(255, 255, 255);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25); 
+  
+  
+}
+.line-1{
+    position: relative;
+    top: 0%;  
+    width: 18em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(255, 255, 255);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+}
+
+.anim-typewriter{
+  animation: typewriter 3s steps(29) 1s 1 normal both,
+             blinkTextCursor 500ms steps(29) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 18em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255, 255, 255, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+
+body{
+background: linear-gradient(to bottom, rgba(63, 63, 63, 0.74), rgb(2, 2, 2)), url("img/background.jpg");
+background-size: 100%;
+background-repeat: repeat-x;
+background-attachment: fixed;
+background-position-y: 15%;
+opacity: 100%;
+    }
+   
+
+
+
+
+.logo{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#imagen {
+    color: rgb(0, 0, 0);
+    -webkit-animation: fadein 3s ease-in alternate infinite;
+    -moz-animation: fadein 3s ease-in alternate infinite;
+    animation: fadein 3s ease-in alternate infinite;
+}
+
+#texto{
+    color: rgb(255, 0, 0);
+    -webkit-animation: fadein 3s ease-in ;
+    -moz-animation: fadein 3s ease-in ;
+    animation: fadein 3s ease-in ;
+}
+
+
+
+.texto{
+    position: absolute;
+    font-size: 130%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+a:link  {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.801);
+  text-decoration: none; 
+  
+
+
+  
+}
+
+.centrado{
+ align-items: center;
+ text-align: center;
+}
+
+
+</style>
+
+
+ 
+</HEAD>
+<body>
+<div class="centrado">
+
+
+<div class="logo">
+    <div id="imagen">
+    <img src="img/logo.png" alt="logo" width="20%" >
+    </div>
+    <div class="texto-centrado"><p class="line-1 anim-typewriter "><b>E L I A S ' S &nbsp; C L O T H I N G</b></p></div>
+</div>
+
+
+
+<p class="texto" id="texto">
+    <b>
+
+    <a href="01coleccion.html">>Colección</a> <br><br>
+    <a href="02adelantos.html">>Adelantos Temporada 2022</a><br><br>
+        <a href="03noticias.html">>Noticias</a><br><br>
+            <a href="04sobre.html">>Sobre Nosotros</a><br><br>
+                <a href="05contacto.html" >>Contacto</a> <br><br>
+
+            </b>
+</p>
+
+</div>
+
+</body>
+</html>
